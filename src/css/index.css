@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+}
+
+main{
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    background-color: #e7d534da;
+    box-shadow: 0px 0px 8px #9c9c9c;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.logo a{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu{
+    margin-right: 50px;
+}
+
+.menu nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+.menu nav ul li a{
+    color: #fafafa;
+    transition: 0.2s ease-in;
+    padding: 5px;
+}
+
+.menu nav ul li a i{
+    background-color: #e4cd05f3;
+    padding: 6px 10px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px #aa9900f3;
+    color: #0c0c0c;
+    transition: 0.2s ease-in;
+}
+
+.menu nav ul li a i:hover{
+    color: #fafafa;
+}
+
+.menu nav ul li a:hover{
+    color: #0c0c0c;
+}
+
+.folder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    width: 100%;
+    background-image: url(../img/ayman-yusuf-mvrSnn9RVQI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.folder h1{
+    color: #fafafa;
+    font-size: 50px;
+    text-shadow: 0px 0px 8px #9c9c9c;
+}
+
+.destaques{
+    background-color: #fafafa;
+    height: 56vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-title{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    color: #e7d534da;
+    font-size: 25px;
+}
+
+.box-destaques{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    background-color: #ebebeb;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #9c9c9c;
+}
+
+.box-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.box-header span{
+    font-size: 12px;
+    height: 100px;
+    width: 150px;
+    text-align: start;
+}
+
+.ler-mais{
+    margin-left: 8px;
+    font-size: 14px;
+    color: #36a6b9;
+}
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.box-text h3{
+    margin: 10px 0;
+}
+
+.box img{
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #9c9c9c;
+}
+
+.buy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.btn-icon{
+    background-color: #fafafa;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 6px;
+    transition: 0.2s ease-in;
+}
+
+.btn-icon:hover{
+    background-color: #c5c5c5;
+}
+
+.buy a{
+    color: #000;
+    background-color: #e7d534da;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.buy a:hover{
+    background-color: #fde61cec;
+}
+
+.buy button{
+    border: none;
+    background-color: transparent;
+    padding: 3px 8px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+}

@@ -15,7 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 10px 0;
     background-color: #e7d534da;
     box-shadow: 0px 0px 8px #9c9c9c;
 }
@@ -36,13 +36,16 @@ header{
 
 .menu nav ul{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
 }
 
 .menu nav ul li a{
     color: #fafafa;
     transition: 0.2s ease-in;
-    padding: 5px;
+    padding: 8px;
+    display: inline-block;
 }
 
 .menu nav ul li a i{
@@ -52,14 +55,17 @@ header{
     box-shadow: 3px 3px 5px #aa9900f3;
     color: #0c0c0c;
     transition: 0.2s ease-in;
+    display: inline-block;
 }
 
 .menu nav ul li a i:hover{
     color: #fafafa;
+    transform: scale(1.08);
 }
 
 .menu nav ul li a:hover{
     color: #0c0c0c;
+    transform: scale(1.08)
 }
 
 .folder{
@@ -82,29 +88,37 @@ header{
 
 .destaques{
     background-color: #fafafa;
-    height: 56vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 .sub-title{
     margin-top: 10px;
-    margin-bottom: 15px;
     margin-left: 50px;
     color: #e7d534da;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .box-destaques{
     margin-left: 50px;
     margin-right: 50px;
+    padding: 0 20px;
     display: flex;
+    height: 100vh;
     align-items: center;
     justify-content: space-around;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    gap: 50px;
 }
 
+
 .box{
+    margin-top: -20px;
     background-color: #ebebeb;
     height: 250px;
     width: 300px;
@@ -112,9 +126,10 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 8px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #9c9c9c;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
 }
 
 .box-header{

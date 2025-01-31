@@ -23,11 +23,28 @@
         </div>
     </header>
     <main>
-        <div>
-            <form>
+        <section id="container" class="container">
+            <div class="content-form">
+                <form>
+                    <label>URL: Imagem</label>
+                    <input id="imgUrl" type="text" placeholder="URL-img...">
 
-            </form>
-        </div>
+                    <label>Titulo:</label>
+                    <input id="titulo" type="text" placeholder="Titulo...">
+
+                    <label>Preço</label>
+                    <input id="preco" type="text" placeholder="Preço...">
+
+                    <label>Descrição:</label>
+                    <textarea id="descricao" placeholder="Descrição..."></textarea>
+
+                    <button onclick="enviarBox(event)">Enviar</button>
+                </form>
+            </div>
+        </section>
+        
     </main>
+
+    <script src="../js/upBox.js"></script>
 </body>
 </html>

@@ -40,3 +40,7 @@ function salvarNoLocal(){ //Essa função é responsavel por salvar o nosso Arra
      //---> Por isso (JSON.stringfy) estamos indicado a transformação do (JSON) para uma (string)...
     //---> E por fim informanos o que desejamos salva o nosso Array (user). 
 }
+
+
+
+

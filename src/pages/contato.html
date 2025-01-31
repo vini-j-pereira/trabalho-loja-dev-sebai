@@ -37,10 +37,10 @@
                 </div>
                 <div>
                     <form id="form" class="form">
-                        <input type="text" placeholder="Digite seu nome...">
-                        <input type="tel" placeholder="Digite seu telefone...">
-                        <input type="email" placeholder="Digite seu e-mail...">
-                        <button class="btn-contato">Enviar</button>
+                        <input id="nome" type="text" placeholder="Digite seu nome...">
+                        <input id="fone" type="tel" placeholder="Digite seu telefone...">
+                        <input id="email" type="email" placeholder="Digite seu e-mail...">
+                        <button class="btn-contato" onclick="salvarDados(event)">Enviar</button>
                     </form>
                 </div>
             </div>
@@ -51,5 +51,7 @@
             </footer>
         </section>
     </main>
+
+    <script src="/index.js"></script>
 </body>
 </html>

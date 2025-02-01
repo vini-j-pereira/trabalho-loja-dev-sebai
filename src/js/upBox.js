@@ -25,6 +25,11 @@ function enviarBox(event){
 
     alert('Novo Box salvo com sucesso!')
 
+    imgUrl.value = '';
+    titulo.value = '';
+    preco.value = '';
+    descricao.value = '';
+
     salvarBoxLocal();
 
     carregarBox();

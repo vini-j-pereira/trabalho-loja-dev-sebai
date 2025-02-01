@@ -141,10 +141,18 @@ header{
 }
 
 .box-header span{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 3;
     font-size: 12px;
     height: 100px;
     width: 150px;
     text-align: start;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.5em;
+    height: 4.5em;
+    
 }
 
 .ler-mais{

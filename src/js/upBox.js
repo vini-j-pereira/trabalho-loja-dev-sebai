@@ -3,7 +3,7 @@ let titulo = document.getElementById("titulo");
 let preco = document.getElementById("preco");
 let descricao = document.getElementById("descricao");
 
-let produtoBox = [];
+let produtoBox = JSON.parse(localStorage.getItem("@newBox")) || [];
 
 function enviarBox(event){
     event.preventDefault();
@@ -22,5 +22,12 @@ function enviarBox(event){
 
     produtoBox.push(novoBox);
 
-    console.log(produtoBox)
+    alert('Novo Box salvo com sucesso!')
+
+    salvarBoxLocal();
+}
+
+function salvarBoxLocal() {
+
+    localStorage.setItem("@newBox", JSON.stringify(produtoBox));
 }

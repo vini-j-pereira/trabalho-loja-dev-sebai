@@ -18,7 +18,7 @@ function enviarDados(event){ //---> função para receber as 3 informações dos
 
     let novoUser = {        //---> Na linha (19) declaramo uma variavel para receber um objeto => {}
         name: novoNome,    //---> O (name:) esta recebendo o valor da variavel (novoNome) => que por sua vez recebeu o valor do input (nome.value) na linha (15).
-        name: novoNome,   //---> (fone:) recebe valor de (novoFone) => que recebeu o valor do input (fone.value) na linha (16).
+        phone: novoFone,   //---> (fone:) recebe valor de (novoFone) => que recebeu o valor do input (fone.value) na linha (16).
         email: novoEmail //---> (email:) recebe valor de (novoEmail) => que recebeu o valor do input (email.value) na linha (17).
     }                   //---> Por fim temos o objeto => { name: novoNome, fone: novoFone, email: novoEmail } => com 3 valores nome: fone: email:
 
